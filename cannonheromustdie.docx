@@ -1,0 +1,12 @@
+Cannon Hero Must Die
+Game Description: The task of this game is to knock the villain out by precise shooting. It is accomplished by long pressing on the screen for the time to achieve the required angle. Be careful though, one wrong aim and the user must die
+Overview: The system’s perfect move is identified by using Image processing, the further move is calculated by the algorithm and is marked in the concerned box using ADB Tool. This continues as the algorithm tries to win the game in the best way possible
+
+  
+Requirements: Computer with MATLAB, ADB Tool and required drivers set up. An Android Device with the ‘Cannon Hero Must Die’ game installed on it. (Turn on the Developer options for better visualization) USB data transfer cable
+Procedure:
+Step 1: Use adb commands to take screenshot and pull the image to your computer.
+Step 2: Determine the coordinates of the villain using Image processing.
+Step 3: Now simulate the long press event for the appropriate time to achieve the required degree.
+
+
