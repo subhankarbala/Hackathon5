@@ -1,0 +1,14 @@
+                          Rainbow Tiles
+Game Description: This is a endless runner with clean graphics and smooth animations. Watch out where you step and avoid white blocks. You have 30 seconds so run as far as you can - the further you go the higher is your score.
+Overview: The system’s perfect move is identified by using Image processing, the further move is calculated by the algorithm and is marked in the concerned box using ADB Tool. This continues as the algorithm tries to win the game in the best way possible
+  
+ 
+Requirements: Computer with MATLAB, ADB Tool and required drivers set up. An Android Device with the ‘Rainbow Tiles ’game installed on it. (Turn on the Developer options for better visualization) USB data transfer cable
+Procedure
+Step 1: Using ADB Tool to capture screenshot
+The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path. Pull the image to your computer
+Step 2: Now determine the tile which is to be pressed using Image Processing.
+Step 3: Now simulate the long press event using appropriate adb shell command.
+
+
+
